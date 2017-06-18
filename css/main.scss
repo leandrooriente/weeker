@@ -3,67 +3,88 @@
 ---
 @charset "utf-8";
 
+@font-face {
+     font-family: 'HKGrotesk';
+     src: url('HKGrotesk-Bold.ttf');
+}
 
+p { font-family: "HKGroetesk-Regular"; }
 
-// Our variables
-$base-font-family:  Helvetica, "Helvetica Neue", Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-$font-weight-light: 100;
-$font-weight-normal: 400;
-$font-weight-bold: 600;
+.site-footer {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 0rem;
+  width:100%;
 
-$spacing-unit:     30px;
+  /* footer style */
+  color: #99999a;
+  background-color: #FAFAFB;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: #b1b1b1;
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          550px;
-$on-laptop:        780px;
-
-
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
+  .left {
+    a {
+      color: #666;
+      border-bottom:1px dotted;
+      text-decoration:none;
     }
+    a:hover {
+      color:red;
+      border-bottom:1px dotted;
+    }
+  }
 }
 
-.dont-break-out {
-
-  /* Careful, this breaks the word wherever it is without a hyphen */
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-
-  /* Adds a hyphen where the word breaks */
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
-
+.main-photo {
+  background-image: url("/assets/img/jenifer.jpg");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@import
-        "normalize",
-        "base",
-        "layout",
-        "color",
-        "syntax-highlighting"
-;
+.second-photo {
+  background-image: url("/assets/img/second-photo.jpg");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.third-photo {
+  background-image: url("/assets/img/third-photo.jpg");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.video {
+  background-image: url("/assets/img/video.jpg");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.download {
+  margin: 80px;
+  text-align: center;
+  color: #333;
+}
+
+.presentation {
+  margin: 80px;
+  text-align: center;
+  color: #333;
+  padding: 0 400px;
+}
+
+.text-left {
+  text-align: left;
+  padding-top: 250px;
+  width: 350px;
+  padding-left: 90px;
+  color: #333;
+}
+
+.text-right {
+  text-align: right;
+  padding-top: 250px;
+  padding-right: 90px;
+  color: #333;
+}
