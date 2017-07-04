@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="154px" height="57px" viewBox="0 0 154 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="86.5093238%" y2="92.1221423%" id="linearGradient-1">
+            <stop stop-color="#AD6BFF" offset="0%"></stop>
+            <stop stop-color="#A0CEF4" offset="100%"></stop>
+        </linearGradient>
+        <path d="M34.9742722,6.00065421 C31.1046301,2.13109215 25.959806,0 20.4874232,0 C15.0150404,0 9.87021626,2.13109215 6.00065421,6.00065421 C2.13101213,9.87013623 0,15.0150404 0,20.4874232 C0,25.959806 2.13101213,31.1047101 6.00065421,34.9742722 C9.87021626,38.8437542 15.0150404,40.9748463 20.4875032,40.9748463 C25.959966,40.9748463 31.1047901,38.8437542 34.9742722,34.9742722 C38.8437542,31.1047101 40.9748463,25.959806 40.9748463,20.4874232 C40.9748463,15.0150404 38.8437542,9.87021626 34.9742722,6.00065421 Z M33.2530085,33.2530085 C29.8432931,36.662884 25.3096504,38.5406043 20.4875032,38.5406043 C15.665276,38.5406043 11.1317133,36.6627239 7.7219979,33.2530085 C4.31220243,29.843213 2.43424199,25.3095704 2.43424199,20.4874232 C2.43424199,15.665276 4.3121224,11.1317133 7.7219979,7.72191787 C11.1317934,4.31204237 15.665276,2.43424199 20.4874232,2.43424199 C24.9015825,2.43424199 29.0733341,4.00873248 32.3631661,6.89041659 L29.0652512,10.1883315 C26.6612601,8.1790435 23.6586522,7.08432685 20.4874232,7.08432685 C13.0969854,7.08432685 7.08448691,13.0969054 7.08448691,20.4873431 C7.08448691,27.8777809 13.0970654,33.8904395 20.4874232,33.8904395 C27.8777809,33.8904395 33.8904395,27.8777809 33.8904395,20.4874232 L31.4561975,20.4874232 C31.4561975,26.5356146 26.5356146,31.4561975 20.4874232,31.4561975 C14.4392317,31.4561975 9.51880893,26.5356146 9.51880893,20.4874232 C9.51880893,14.4392317 14.4393118,9.51864887 20.4874232,9.51864887 C23.0076163,9.51864887 25.3976023,10.363515 27.3354244,11.9181583 L24.0119802,15.2416025 C22.9784858,14.5440697 21.7618849,14.1688138 20.4874232,14.1688138 C17.0033608,14.1688138 14.1688938,17.0033608 14.1688938,20.4873431 C14.1688938,23.9713255 17.0033608,26.8058725 20.4874232,26.8058725 C23.9714855,26.8058725 26.8059526,23.9713255 26.8059526,20.4873431 L24.3717106,20.4873431 C24.3717106,22.6291592 22.6291592,24.3716305 20.4874232,24.3716305 C18.3456872,24.3716305 16.6032158,22.6291592 16.6032158,20.4874232 C16.6032158,18.3456872 18.3456872,16.6031358 20.4875032,16.6031358 C21.1050069,16.6031358 22.0954105,16.7551861 22.6310446,17.0257641 C23.1666787,17.2963421 24.0834333,18.3863391 24.0834333,18.3863391 L34.0845098,8.61168025 C36.9661939,11.9015923 38.5406844,16.0732638 38.5406844,20.4873431 C38.5406043,25.3095704 36.6627239,29.843133 33.2530085,33.2530085 Z" id="path-2"></path>
+        <filter x="-97.6%" y="-48.8%" width="295.2%" height="295.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="20" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#AB6DFE" offset="0%"></stop>
+            <stop stop-color="#90C9F7" offset="100%"></stop>
+        </linearGradient>
+        <ellipse id="path-5" cx="31.7484634" cy="15.822693" rx="1.47437421" ry="1.47437421"></ellipse>
+        <filter x="-1356.5%" y="-678.3%" width="2813.0%" height="2813.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="20" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2">
+            <text id="wekker" font-family="Hero" font-size="28" font-weight="normal" fill="#333333">
+                <tspan x="52" y="35">wekke</tspan>
+                <tspan x="139.724" y="35" letter-spacing="7.79999304">r</tspan>
+            </text>
+            <g id="radar-(1)" transform="translate(5.000000, 7.000000)" fill-rule="nonzero">
+                <g id="Layer_1">
+                    <g id="Shape">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    </g>
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use fill="url(#linearGradient-4)" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

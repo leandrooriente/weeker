@@ -1,24 +1,40 @@
 @font-face {
   font-family: 'HKGrotesk';
-  src: url("HKGrotesk-Bold.ttf"); }
-p {
-  font-family: "HKGroetesk-Regular"; }
+  src: url("/assets/font/HKGrotesk/HKGrotesk-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("/assets/font/HKGrotesk/HKGrotesk-Regular.woff2") format("woff2"), url("/assets/font/HKGrotesk/HKGrotesk-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url("/assets/font/HKGrotesk/HKGrotesk-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("/assets/font/HKGrotesk/HKGrotesk-Bold.woff2") format("woff2"), url("/assets/font/HKGrotesk/HKGrotesk-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+body {
+  margin: 0;
+  font-family: 'HKGrotesk', sans-serif;
+  color: #4C4C4C; }
 
-.site-footer {
-  position: absolute;
-  bottom: 0;
-  padding-bottom: 0rem;
-  width: 100%;
-  /* footer style */
-  color: #99999a;
-  background-color: #FAFAFB; }
-  .site-footer .left a {
-    color: #666;
-    border-bottom: 1px dotted;
-    text-decoration: none; }
-  .site-footer .left a:hover {
-    color: red;
-    border-bottom: 1px dotted; }
+header {
+  padding-left: 90px; }
+
+footer {
+  background-color: #9986FC;
+  padding-left: 90px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.button-download {
+  background-color: #9986FC;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px 32px;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold; }
 
 .main-photo {
   background-image: url("/assets/img/jenifer.jpg");
@@ -38,32 +54,45 @@ p {
   background-repeat: no-repeat;
   background-size: cover; }
 
-.video {
-  background-image: url("/assets/img/video.jpg");
-  height: 600px;
-  background-repeat: no-repeat;
-  background-size: cover; }
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden; }
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
 
 .download {
   margin: 80px;
-  text-align: center;
-  color: #333; }
+  text-align: center; }
 
 .presentation {
   margin: 80px;
   text-align: center;
-  color: #333;
   padding: 0 400px; }
 
 .text-left {
   text-align: left;
   padding-top: 250px;
   width: 350px;
-  padding-left: 90px;
-  color: #333; }
+  padding-left: 90px; }
 
 .text-right {
   text-align: right;
   padding-top: 250px;
-  padding-right: 90px;
-  color: #333; }
+  padding-right: 90px; }
+
+.right-div {
+  display: inline-block; }
+
+.left-div {
+  display: inline-block;
+  margin-right: 28px; }
