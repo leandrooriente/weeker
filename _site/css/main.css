@@ -20,6 +20,9 @@ body {
 header {
   padding-left: 90px; }
 
+header img {
+  width: 154px; }
+
 footer {
   background-color: #9986FC;
   padding-left: 90px;
